@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-hot-background_23-2149451967.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-family: monospace;
+    font-size: 3em;
+}
+.main {
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:40px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 23%, rgb(139, 151, 10) 61%);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.575);
+    border-radius: 10px;
+   
+  
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    height: 60px;
+
+}
+.inp{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+
+}
+.temp{
+    font-size: 5em;
+    color: white;
+    font-family: monospace;
+}
+.city{
+    font-size: 2.5em;
+    color: white;
+    font-family: monospace;
+}
+.other{
+    display:flex;
+    gap: 100px;
+    color: white;
+}
+
+.humiper, .windper{
+    font-size: 1.5em;
+}
+#feelslike,.feelslike{
+    color: white;
+    font-size: 1em;
+    font-family: monospace;
+}
+.humiimg{
+    height: 30px;
+    width: 30px;
+}
+.humi{
+    display: flex;
+    gap: 5px;
+}
+.fa-wind{
+    font-size: 2em;
+}
+.imghum{
+    height: 30px;
+    width: 30px;
+
+}
+.km{
+    font-size: 1em;
+}
+.condition{
+    text-align: end;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Weather App</h1>
+        <div class="search">
+            <select name="" id="citySelect" class="inp">
+                <option value="karachi">Karachi</option>
+                <option value="abbottabad">Abbottabad</option>
+                <option value="bahawalpur">Bahawalpur</option>
+                <option value="dera_ghazi_khan">Dera Ghazi Khan</option>
+                <option value="faisalabad">Faisalabad</option>
+                <option value="gujranwala">Gujranwala</option>
+                <option value="gujrat">Gujrat</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="jhang">Jhang</option>
+                <option value="kasur">Kasur</option>
+                <option value="khuzdar">Khuzdar</option>
+                <option value="lahore">Lahore</option>
+                <option value="larkana">Larkana</option>
+                <option value="mardan">Mardan</option>
+                <option value="mirpurkhas">Mirpurkhas</option>
+                <option value="multan">Multan</option>
+                <option value="murree">Murree</option>
+                <option value="nawabshah">Nawabshah</option>
+                <option value="okara">Okara</option>
+                <option value="peshawar">Peshawar</option>
+                <option value="quetta">Quetta</option>
+                <option value="rawalpindi">Rawalpindi</option>
+                <option value="sargodha">Sargodha</option>
+                <option value="sheikhupura">Sheikhupura</option>
+                <option value="sialkot">Sialkot</option>
+                <option value="sukkur">Sukkur</option>
+                <option value="vehari">Vehari</option>
+            </select>
+            
+        </div>
+        <div class="details">
+            <h4 class="condition" id="condition">Hot</h4>
+            <div class="blah">
+                <h1 class="temp" id="temperature">23°C</h1>
+                <h5 class="feelslike">Feels Like: <span id="feelslike">22</span></h5>
+            </div>
+            <h3 class="city" id="cityName">Karachi</h3>
+        </div>
+
+        <div class="other">
+            <div class="humi">
+                <img src="images.jpeg" alt="" class="imghum">
+                <h5 class="humidity">
+                    <span class="humiper" id="humidity">76%</span><br> Humidity
+                </h5>
+            </div>
+            <div class="humi">
+                <i class="fa-solid fa-wind"></i>
+
+                <h5 class="wind">
+                    <span class="windper" id="wind">76.5 km/h</span>km/h<br> Wind
+                </h5>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
