@@ -5,8 +5,8 @@ import WeatherInfo from "./components/Weather";
 const popularCities = [
   "Gwadar",
   "Ormara",
-  " Kund Malir",
-  " Hub",
+  
+  "Hub",
   "Karachi",
   "Pasni",
   "Tokyo",
